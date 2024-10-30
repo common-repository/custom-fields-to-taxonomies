@@ -1,0 +1,51 @@
+.clear {
+	clear: both;
+}
+.meta_key_count {
+	display: none;
+}
+.meta_key_count.show {
+    display: inline-block;
+    margin-left: 10px;
+}
+.meta_key_count span {
+    font-weight: bold;
+}
+.submit .spinner {
+    float: none;
+    margin-top: 0;
+}
+#start_convert:disabled {
+	display: none;
+}
+#ctf_tax_convert input:disabled,
+#ctf_tax_convert select:disabled {
+	cursor: not-allowed;
+}
+#wpbody-content .process {
+	float: left;
+	width: 60%;
+}
+#wpbody-content .history {
+	float: left;
+	width: 25%;
+}
+#wpbody-content .noted {
+	font-size: 12px;
+	font-style: italic;
+}
+table.table_history {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.table_history td, table.table_history th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table.table_history tr:nth-child(even) {
+    background-color: #dddddd;
+}
